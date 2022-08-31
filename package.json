@@ -10,7 +10,7 @@
     "dev": "nodemon",
     "start": "node -r tsconfig-paths/register -r ts-node/register ./src/server.ts",
     "build": "tsc --project tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./build",
-    "start:prod": "node build/index.js"
+    "start:prod": "node build/server.js"
   },
   "nodemonConfig": {
     "ignore": [
